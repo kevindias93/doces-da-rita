@@ -120,7 +120,7 @@ class _CarrinhoPageState extends State<CarrinhoPage> {
         .where('codigo', isEqualTo: codigo)
         .where('ativo', isEqualTo: true)
         .get();
-
+    if (!mounted) return;
     if (query.docs.isEmpty) {
       ScaffoldMessenger.of(
         context,
