@@ -4,11 +4,11 @@ workflows:
     instance_type: mac_mini_m2
 
     environment:
-      flutter: stable
+      flutter: 3.35.3
       xcode: 16.4
 
     scripts:
-      - name: Flutter packages get
+      - name: Flutter clean
         script: |
           flutter clean
           flutter pub get
