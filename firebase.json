@@ -1,0 +1,34 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "doces-da-rita",
+          "appId": "1:898348869936:android:f2253e8bc67708122b40f5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "doces-da-rita",
+          "configurations": {
+            "android": "1:898348869936:android:f2253e8bc67708122b40f5",
+            "windows": "1:898348869936:web:e4d489b369bf77f82b40f5"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "source": "functions",
+    "codebase": "functions",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.local"
+    ],
+    "predeploy": []
+  }
+}

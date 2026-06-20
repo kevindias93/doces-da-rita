@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898348869936",
+    "project_id": "doces-da-rita",
+    "storage_bucket": "doces-da-rita.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898348869936:android:f2253e8bc67708122b40f5",
+        "android_client_info": {
+          "package_name": "com.kevin.docesdarita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdf8AzLCLlI42COWtcLWnogA0usrHPilk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
